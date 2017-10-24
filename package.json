@@ -1,0 +1,23 @@
+{
+  "name": "zadanie_14_6",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "start": "babel script.js --out-file script-compiled.js",
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gif"
+  ],
+  "author": "mgrobelny",
+  "license": "ISC",
+  "description": "GIF search + promise",
+  "start": "http-server",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "http-server": "^0.10.0"
+  }
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+body {
+	background-color: #9297a0;
+}
+
+input {
+	text-align: center;
+	background-color: #e5e6e8;
+	border: none;
+	color: #9b9ea0;
+	margin-bottom: 20px;
+}
+h1 {
+	color: white;
+	font-family: 'Lobster', cursive;
+	font-size: 65px;
+}
+p {
+	color: white;
+	font-weight: bold;
+	font-family: Lato;
+	font-size: 22px;
+}
+p a {
+	color: #bdc6cc;
+}
