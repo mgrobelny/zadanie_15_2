@@ -37,7 +37,12 @@ App = React.createClass({
                         sourceUrl: data.url
                     };
                     resolve(gif);
+                    } else {
+                    	reject('error!');
                     }
+					function()
+					.then(result => data)
+            		.catch(error => console.log('error'));
                 };
             xhr.send();
         })
@@ -65,3 +70,6 @@ App = React.createClass({
         );
     }
 });
+
+
+
