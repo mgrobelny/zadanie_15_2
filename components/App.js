@@ -40,13 +40,14 @@ App = React.createClass({
                     } else {
                     	reject('error!');
                     }
-					function()
-					.then(result => data)
-            		.catch(error => console.log('error'));
+                    	getGif()
+	.then(result => resolve(gif))
+    .catch(error => console.log('error'));
                 };
             xhr.send();
         })
     },
+
 
     render: function() {
 
@@ -70,6 +71,5 @@ App = React.createClass({
         );
     }
 });
-
 
 
