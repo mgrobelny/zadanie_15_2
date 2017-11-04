@@ -21,7 +21,8 @@ App = React.createClass({
                 gif: gif,  
                 searchingText: searchingText  
             });
-        });
+        })
+        .catch(error => console.log('error'))
     },
 
     getGif: function(searchingText) { 
@@ -40,9 +41,6 @@ App = React.createClass({
                     } else {
                     	reject('error!');
                     }
-                    	getGif()
-	.then(result => resolve(gif))
-    .catch(error => console.log('error'));
                 };
             xhr.send();
         })
